@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 90vh;
 }
 
 #app-container {
@@ -15,4 +16,44 @@ body {
     text-align: center;
     width: 80%;
     max-width: 600px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+#quote-display {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-left: 4px solid #3498db;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+}
+
+#quote {
+    font-size: 2em;
+    font-style: italic;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+#author {
+    font-size: 1em;
+    color: #7f8c8d;
+    text-align: right;
+}
+
+#generate-button {
+    background-color: #3498db;
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#generate-button:hover {
+    background-color: #2980b9;
 }
